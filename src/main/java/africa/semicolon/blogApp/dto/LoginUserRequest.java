@@ -1,2 +1,4 @@
-package africa.semicolon.blogApp.dto;public class LoginUserRequest {
+package africa.semicolon.blogApp.dto;
+
+public class LoginUserRequest {
 }

@@ -1,10 +1,10 @@
-package africa.semicolon.data.model;
+package africa.semicolon.blogApp.data.model;
 
-import jdk.jfr.DataAmount;
 import lombok.Data;
 import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Data
@@ -17,5 +17,6 @@ public class User {
     private String id;
     @DBRef
     private List<Post> posts;
+    private LocalDateTime dateCreated = LocalDateTime.now();
 
 }

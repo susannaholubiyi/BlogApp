@@ -1,4 +1,4 @@
-package africa.semicolon.data.model;
+package africa.semicolon.blogApp.data.model;
 
 import lombok.Data;
 import org.springframework.data.mongodb.core.mapping.DBRef;

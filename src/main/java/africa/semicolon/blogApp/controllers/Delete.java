@@ -1,4 +1,4 @@
-package africa.semicolon.controllers;
+package africa.semicolon.blogApp.controllers;
 
 public class Delete {
 }

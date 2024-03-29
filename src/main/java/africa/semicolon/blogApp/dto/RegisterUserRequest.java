@@ -1,4 +1,4 @@
-package africa.semicolon.dto;
+package africa.semicolon.blogApp.dto;
 
 import lombok.Data;
 
