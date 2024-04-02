@@ -5,33 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a03de417-e8d7-4bb0-91c8-f66ec4f5d452" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/controllers/Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/data/model/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/data/model/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/data/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/data/model/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/data/repositories/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/data/repositories/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/data/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/data/repositories/ViewRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/dto/LoginUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/dto/RegisterUserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/dto/RegisterUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/services/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/services/UserServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/exceptions/BlogAppExceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/exceptions/UserDoesNotExistException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/utils/Mappers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/blogApp/data/repositories/RepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/blogApp/services/UserServicesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/dto/CreatePostRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/dto/CreatePostResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/dto/LoginUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/services/PostServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/services/PostServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/exceptions/IncorrectPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/exceptions/userNameAlreadyExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/controllers/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/controllers/UserControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/data/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/data/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/data/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/data/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/dto/LoginUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/dto/LoginUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/services/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/services/UserServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/blogApp/services/UserServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/utils/Mappers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/utils/Mappers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/africa/semicolon/blogApp/services/UserServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/blogApp/services/UserServicesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +37,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2eHzTeV2HhcsFFuX7gZlpIbsrB3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -67,11 +59,12 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;072308ebfb4ac83b5062017a5bb5a6e8&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -86,53 +79,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.UserServicesTest">
-    <configuration name="RepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="blogApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="africa.semicolon.blogApp.data.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="africa.semicolon.blogApp.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.blogApp.data.repositories.RepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RepositoryTest.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="blogApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="africa.semicolon.blogApp.data.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="africa.semicolon.blogApp.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.blogApp.data.repositories.RepositoryTest" />
-      <option name="METHOD_NAME" value="saveTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryTest.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="blogApp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="africa.semicolon.blogApp.data.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="africa.semicolon.blogApp.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="africa.semicolon.blogApp.data.repositories.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="saveTest(africa.semicolon.blogApp.dto.RegisterUserRequest)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserServicesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blogApp" />
       <extension name="coverage">
@@ -164,15 +110,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServicesTest.registerUser_sameUserRegistersAgain_ExceptionIsThrownTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blogApp" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="africa.semicolon.blogApp.Main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="africa.semicolon.blogApp.*" />
+          <option name="PATTERN" value="africa.semicolon.blogApp.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.blogApp.services" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.blogApp.services.UserServicesTest" />
+      <option name="METHOD_NAME" value="registerUser_sameUserRegistersAgain_ExceptionIsThrownTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServicesTest.userCanCreatePostTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blogApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.blogApp.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.blogApp.services" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.blogApp.services.UserServicesTest" />
+      <option name="METHOD_NAME" value="userCanCreatePostTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServicesTest.userCanLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blogApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.blogApp.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.blogApp.services" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.blogApp.services.UserServicesTest" />
+      <option name="METHOD_NAME" value="userCanLoginTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,10 +161,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserServicesTest" />
+        <item itemvalue="JUnit.UserServicesTest.userCanCreatePostTest" />
+        <item itemvalue="JUnit.UserServicesTest.userCanLoginTest" />
+        <item itemvalue="JUnit.UserServicesTest.registerUser_sameUserRegistersAgain_ExceptionIsThrownTest" />
         <item itemvalue="JUnit.UserServicesTest.registerUserTest" />
-        <item itemvalue="JUnit.RepositoryTest" />
-        <item itemvalue="JUnit.UserRepositoryTest.saveTest" />
-        <item itemvalue="Spring Boot.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +181,11 @@
       <workItem from="1711626011991" duration="2695000" />
       <workItem from="1711641178232" duration="606000" />
       <workItem from="1711645759095" duration="1313000" />
-      <workItem from="1711728224616" duration="1568000" />
+      <workItem from="1711728224616" duration="5804000" />
+      <workItem from="1711867527351" duration="10501000" />
+      <workItem from="1711966451721" duration="22199000" />
+      <workItem from="1712047972579" duration="663000" />
+      <workItem from="1712055403581" duration="5105000" />
     </task>
     <servers />
   </component>

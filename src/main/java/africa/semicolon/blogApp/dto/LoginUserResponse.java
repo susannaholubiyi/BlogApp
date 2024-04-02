@@ -3,8 +3,7 @@ package africa.semicolon.blogApp.dto;
 import lombok.Data;
 
 @Data
-public class LoginUserRequest {
+public class LoginUserResponse {
     private String username;
-    private String password;
-
+    private String id;
 }

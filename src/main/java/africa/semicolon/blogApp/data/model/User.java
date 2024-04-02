@@ -5,6 +5,7 @@ import org.springframework.data.mongodb.core.mapping.DBRef;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 @Data
@@ -12,11 +13,12 @@ import java.util.List;
 public class User {
     private String firstName;
     private String lastName;
-    private String userName;
+    private String username;
     private String password;
+    private boolean isLocked = true;
     private String id;
     @DBRef
-    private List<Post> posts;
+    private List<Post> posts = new ArrayList<>();
     private LocalDateTime dateCreated = LocalDateTime.now();
 
 }
